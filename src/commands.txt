@@ -1,0 +1,9 @@
+npm install react-router-dom
+npm install --save-dev style-loader css-loader(DID NOT SOLVE Stylces.css not found)
+npm install @emotion/styled --force
+npm install @emotion/react --force
+npm install @emotion/core
+npm install @mui/icons-material
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm i @mui/material 
+npx create-react-app digital-clock

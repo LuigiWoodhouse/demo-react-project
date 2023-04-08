@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "projects": {
+        "client": {
+            "root": "apps/client",
+            "sourceRoot": "apps/client/src",
+            "projectType": "application",
+            "schematics": {},
+            "architect": {
+                "build": {
+                    "builder": "@nrwl/web:build",
+                    "options": {
+                        "webpackConfig": "./webpack.config.js"
+                    }
+                }
+            }
+        }
+    }
+}

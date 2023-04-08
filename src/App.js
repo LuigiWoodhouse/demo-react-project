@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import './index.css';
+import Navbar from './Navigation/Navbar.js'
+import Example from './Example/Example'
+import Stepper from './Stepper/Stepper.js'
+import Clock from './Clock/Clock.js'
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      < Example />
+      <br></br>
+      <Stepper/>
+      <br></br>
+      <Clock/>
     </div>
   );
 }
